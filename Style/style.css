@@ -4,9 +4,9 @@ body {
 
 ::-webkit-scrollbar {
   width: 8px;
-  background: #2d3748;
+  background: #5288e6;
 }
 ::-webkit-scrollbar-thumb {
-  background: #4a5568;
+  background: #4b77c3;
   border-radius: 4px;
 }

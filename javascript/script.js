@@ -68,7 +68,7 @@ todoList.addEventListener('click', function(e) {
 });
 
 deleteAllBtn.addEventListener('click', function() {
-  if (confirm('Hapus semua task?')) {
+  if (confirm('Anda yakin ingin menghapus semua?')) {
     todos = [];
     renderTodos();
   }

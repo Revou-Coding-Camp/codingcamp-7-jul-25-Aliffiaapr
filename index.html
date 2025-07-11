@@ -7,13 +7,13 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="Style/style.css">
 </head>
-<body class="bg-gray-900 flex items-center justify-center min-h-screen">
-  <div class="bg-gray-800 rounded-lg shadow-lg p-8 w-full max-w-md">
-    <h1 class="text-2xl font-bold text-center text-gray-100 mb-6">Todo List</h1>
+<body class="bg-blue-500 flex items-center justify-center min-h-screen">
+  <div class="bg-indigo-700 rounded-lg shadow-lg p-8 w-full max-w-lg mx-auto">
+    <h1 class="text-2xl font-bold text-center text-gray-100 mb-6">To-do List</h1>
     <form id="todo-form" class="flex gap-2 mb-4">
       <input type="text" id="todo-input" class="flex-1 rounded p-2 bg-gray-700 text-gray-100" placeholder="Add a todo..." required />
       <input type="date" id="date-input" class="rounded p-2 bg-gray-700 text-gray-100" required />
-      <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 rounded">+</button>
+      <button type="submit" class="bg-green-500 hover:bg-green-700 text-white px-4 rounded">+</button>
     </form>
     <div class="flex justify-between mb-2">
       <button id="filter-btn" class="bg-gray-600 hover:bg-gray-700 text-gray-100 px-3 py-1 rounded">Filter</button>
